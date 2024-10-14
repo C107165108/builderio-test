@@ -1,19 +1,26 @@
 ## Spacing
-使用固定格式 {property}{sides}-{size} 命名 Class， RWD 情境下對於 sm、md、lg 和 xl， 則是使用格式 {property}{sides}-{breakpoint}-{size}。
+使用固定格式 `{property}{sides}-{size}` 命名 Class， RWD 情境下對於 `sm`、`md`、`lg` 和 `xl`， 則是使用格式 `{property}{sides}-{breakpoint}-{size}`。
 斷點（breakpoint）設定
+```
 sm - @media (min-width: 576px)
 md - @media (min-width: 768px)
 lg - @media (min-width: 1025px)
 xl - @media (min-width: 1441px)
+```
 屬性（property）設定
+```
 m - 這個 class 會設定 margin
 p - 這個 class 會設定 padding
+```
 邊緣（sides）設定
+```
 t - 這個 class 會設定 margin-top 或是 padding-top
 b - 這個 class 會設定 margin-bottom 或是 padding-bottom
 l - 這個 class 會設定 margin-left 或是 padding-left
 r - 這個 class 會設定 margin-right 或是 padding-right
+```
 尺寸（size）設定
+```
 0 - 這個 class 會設定 margin 或 padding 為 0
 4 - 這個 class 會設定 margin 或 padding 為 4px
 8 - 這個 class 會設定 margin 或 padding 為 8px
@@ -26,7 +33,7 @@ r - 這個 class 會設定 margin-right 或是 padding-right
 36 - 這個 class 會設定 margin 或 padding 為 36px
 40 - 這個 class 會設定 margin 或 padding 為 40px
 auto - 這個 class 會設定 margin 或 padding 為 auto
-
+```
 ## Button
 ```
 <div class="cub-font-16 cub-text-gray-secondary">Default</div>
